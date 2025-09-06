@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests --recursive --timeout 60000 --reporter mochawesome"
+    "test": "mocha tests --recursive --timeout 60000 --reporter mochawesome",
+    "test:API": "mocha Test_API --recursive --timeout 60000 --reporter mochawesome"
   },
   "keywords": [],
   "author": "",
